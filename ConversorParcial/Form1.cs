@@ -33,7 +33,7 @@ namespace ConversorParcial
                 cantidad = double.Parse(txtCantidadConversor.Text);
                 // Pie cuadrado, Vara cuadrada, Yarda 
                 double[][] medida = {
-            new double[]{ 0.13223087609, 0.1111, 0.092903, 0.00014774656489, 6988.96, 0.00000929368}, // medidass
+            new double[]{ 0.13223087609, 0.1111, 0.092903, 0.00014774656489, 6988.96, 0.00000929368}, // medidas
         };
                 respuesta = medida[cboTipoConversor.SelectedIndex][a] / medida[cboTipoConversor.SelectedIndex][de] * cantidad;
                 lblRespuestaConversor.Text = "Respuesta: " + Math.Round(respuesta, 3);

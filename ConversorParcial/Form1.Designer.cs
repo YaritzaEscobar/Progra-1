@@ -80,6 +80,7 @@ namespace ConversorParcial
             // 
             // cboTipoConversor
             // 
+            this.cboTipoConversor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTipoConversor.FormattingEnabled = true;
             this.cboTipoConversor.Items.AddRange(new object[] {
             "Medidas de areas"});
@@ -91,6 +92,7 @@ namespace ConversorParcial
             // 
             // cboDeConversor
             // 
+            this.cboDeConversor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDeConversor.FormattingEnabled = true;
             this.cboDeConversor.Items.AddRange(new object[] {
             "Metro cuadrado",
@@ -108,6 +110,7 @@ namespace ConversorParcial
             // 
             // cboAConversor
             // 
+            this.cboAConversor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboAConversor.FormattingEnabled = true;
             this.cboAConversor.Items.AddRange(new object[] {
             "Metro cuadrado",
